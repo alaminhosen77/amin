@@ -1,0 +1,30 @@
+// header
+.header-bottom{
+    margin-bottom: 10px;
+}
+.header-top{
+    background-color : $hedtop_color;
+}
+.sosal-icon, .top-contack{
+    a{
+        padding: 10px;
+        display: inline-block;
+        i{
+            color: $icon-color;
+            &:hover{
+                color: $secend-color;
+            }
+        }
+    }
+}
+.top-contack{
+    display: flex;
+    justify-content: flex-end;
+    a{
+        color: $icon-color;
+        i{
+          padding: 5px;
+          color: $secend-color;  
+        }
+    }
+}

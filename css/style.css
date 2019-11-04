@@ -1,0 +1,586 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,500,700&display=swap");
+/* line 1, ../../../Desktop/doctor/sass/_common.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 5, ../../../Desktop/doctor/sass/_common.scss */
+body {
+  font-family: "Rubik", sans-serif;
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* line 13, ../../../Desktop/doctor/sass/_common.scss */
+a {
+  color: #333;
+  text-decoration: none;
+  outline: none;
+}
+
+/* line 17, ../../../Desktop/doctor/sass/_common.scss */
+a:hover {
+  color: #333;
+  text-decoration: none;
+  outline: none;
+}
+
+/* line 23, ../../../Desktop/doctor/sass/_common.scss */
+p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #727272;
+}
+
+/* line 29, ../../../Desktop/doctor/sass/_common.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 32, ../../../Desktop/doctor/sass/_common.scss */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 36, ../../../Desktop/doctor/sass/_common.scss */
+ul li {
+  list-style: none;
+}
+
+/* line 39, ../../../Desktop/doctor/sass/_common.scss */
+ul li a {
+  text-decoration: none;
+}
+
+/* line 42, ../../../Desktop/doctor/sass/_common.scss */
+ul li a:hover {
+  text-decoration: none;
+}
+
+/* line 2, ../../../Desktop/doctor/sass/_header.scss */
+.header-bottom {
+  margin-bottom: 10px;
+}
+
+/* line 5, ../../../Desktop/doctor/sass/_header.scss */
+.header-top {
+  background-color: #F5FBFF;
+}
+
+/* line 9, ../../../Desktop/doctor/sass/_header.scss */
+.sosal-icon a, .top-contack a {
+  padding: 10px;
+  display: inline-block;
+}
+
+/* line 12, ../../../Desktop/doctor/sass/_header.scss */
+.sosal-icon a i, .top-contack a i {
+  color: #c7c7c7;
+}
+
+/* line 14, ../../../Desktop/doctor/sass/_header.scss */
+.sosal-icon a i:hover, .top-contack a i:hover {
+  color: #4BA8FD;
+}
+
+/* line 20, ../../../Desktop/doctor/sass/_header.scss */
+.top-contack {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 23, ../../../Desktop/doctor/sass/_header.scss */
+.top-contack a {
+  color: #c7c7c7;
+}
+
+/* line 25, ../../../Desktop/doctor/sass/_header.scss */
+.top-contack a i {
+  padding: 5px;
+  color: #4BA8FD;
+}
+
+/* line 2, ../../../Desktop/doctor/sass/_menu.scss */
+.mainmenu ul li {
+  position: relative;
+  padding: 10px;
+  float: left;
+}
+
+/* line 6, ../../../Desktop/doctor/sass/_menu.scss */
+.mainmenu ul li a {
+  color: #727272;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* line 11, ../../../Desktop/doctor/sass/_menu.scss */
+.mainmenu ul li ul {
+  position: absolute;
+  left: -9989999px;
+  transition: .2s;
+}
+
+/* line 15, ../../../Desktop/doctor/sass/_menu.scss */
+.mainmenu ul li ul li {
+  float: left;
+  padding: 10px;
+  z-index: 1;
+  background: #fff;
+  width: 170px;
+}
+
+/* line 24, ../../../Desktop/doctor/sass/_menu.scss */
+.mainmenu ul li:hover ul {
+  left: 0;
+  transition: .2s;
+}
+
+/* line 1, ../../../Desktop/doctor/sass/_button.scss */
+.button {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  background: #009DFF;
+  font-size: 14px;
+  transition: .4s;
+  display: inline-block;
+  padding: 15px 55px;
+}
+
+/* line 11, ../../../Desktop/doctor/sass/_button.scss */
+.button a {
+  color: #fff;
+  transition: .4s;
+}
+
+/* line 16, ../../../Desktop/doctor/sass/_button.scss */
+.button:hover {
+  border: 1px solid #009DFF;
+  background: none;
+  transition: .4s;
+}
+
+/* line 20, ../../../Desktop/doctor/sass/_button.scss */
+.button:hover a {
+  color: #009DFF;
+  transition: .4s;
+}
+
+/* line 25, ../../../Desktop/doctor/sass/_button.scss */
+.searvice-button, .wel-doc-btn {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+  transition: .4s;
+  display: inline-block;
+  padding: 10px 50px;
+}
+
+/* line 34, ../../../Desktop/doctor/sass/_button.scss */
+.searvice-button a, .wel-doc-btn a {
+  color: #fff;
+  transition: .4s;
+}
+
+/* line 39, ../../../Desktop/doctor/sass/_button.scss */
+.searvice-button:hover, .wel-doc-btn:hover {
+  border: 1px solid #009DFF;
+  background: #fff;
+  transition: .4s;
+}
+
+/* line 43, ../../../Desktop/doctor/sass/_button.scss */
+.searvice-button:hover a, .wel-doc-btn:hover a {
+  color: #009DFF;
+  transition: .4s;
+}
+
+/* line 48, ../../../Desktop/doctor/sass/_button.scss */
+.wel-doc-btn {
+  margin-top: 50px;
+  border: 1px solid #009DFF;
+}
+
+/* line 52, ../../../Desktop/doctor/sass/_button.scss */
+.wel-doc-btn a {
+  color: #009DFF;
+}
+
+/* line 56, ../../../Desktop/doctor/sass/_button.scss */
+.wel-doc-btn:hover {
+  background: #009DFF;
+  transition: .4s;
+}
+
+/* line 59, ../../../Desktop/doctor/sass/_button.scss */
+.wel-doc-btn:hover a {
+  color: #fff;
+  transition: .4s;
+}
+
+/* line 2, ../../../Desktop/doctor/sass/_slider.scss */
+.singel-slider {
+  background-image: url(../img/banner2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 6, ../../../Desktop/doctor/sass/_slider.scss */
+.singel-slider .slider-text {
+  padding: 130px;
+}
+
+/* line 8, ../../../Desktop/doctor/sass/_slider.scss */
+.singel-slider .slider-text h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+
+/* line 11, ../../../Desktop/doctor/sass/_slider.scss */
+.singel-slider .slider-text h2 span {
+  font-weight: 700;
+}
+
+/* line 15, ../../../Desktop/doctor/sass/_slider.scss */
+.singel-slider .slider-text p {
+  color: #c7c7c7;
+}
+
+/* line 20, ../../../Desktop/doctor/sass/_slider.scss */
+.singel-slider {
+  position: relative;
+}
+
+/* line 22, ../../../Desktop/doctor/sass/_slider.scss */
+.singel-slider .slider-img img {
+  position: absolute;
+  right: 0;
+  height: 502px;
+  bottom: 0;
+  top: 0;
+}
+
+/* line 1, ../../../Desktop/doctor/sass/_searvicearea.scss */
+.searvicearea {
+  background: #83C4FF;
+}
+
+/* line 4, ../../../Desktop/doctor/sass/_searvicearea.scss */
+.searvicearea .single-inner {
+  padding: 40px 30px;
+}
+
+/* line 6, ../../../Desktop/doctor/sass/_searvicearea.scss */
+.searvicearea .single-inner:hover {
+  background: #4BA8FD;
+}
+
+/* line 9, ../../../Desktop/doctor/sass/_searvicearea.scss */
+.searvicearea .single-inner .icon {
+  margin-bottom: 10px;
+}
+
+/* line 11, ../../../Desktop/doctor/sass/_searvicearea.scss */
+.searvicearea .single-inner .icon i {
+  font-size: 50px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+/* line 18, ../../../Desktop/doctor/sass/_searvicearea.scss */
+.searvicearea .content {
+  color: #fff;
+}
+
+/* line 20, ../../../Desktop/doctor/sass/_searvicearea.scss */
+.searvicearea .content h3 {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+/* line 24, ../../../Desktop/doctor/sass/_searvicearea.scss */
+.searvicearea .content p {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 300;
+}
+
+/* line 1, ../../../Desktop/doctor/sass/_welcome-docmnt-area.scss */
+.welcome-docmnt-area {
+  padding: 100px 0 200px 0;
+}
+
+/* line 3, ../../../Desktop/doctor/sass/_welcome-docmnt-area.scss */
+.welcome-docmnt-area .welc-single-inner {
+  position: relative;
+}
+
+/* line 5, ../../../Desktop/doctor/sass/_welcome-docmnt-area.scss */
+.welcome-docmnt-area .welc-single-inner .fist-img {
+  width: 60%;
+}
+
+/* line 8, ../../../Desktop/doctor/sass/_welcome-docmnt-area.scss */
+.welcome-docmnt-area .welc-single-inner .secend-img {
+  position: absolute;
+  right: 0;
+  top: 100px;
+  width: 85%;
+}
+
+/* line 16, ../../../Desktop/doctor/sass/_welcome-docmnt-area.scss */
+.welcome-docmnt-area .content h5 {
+  font-size: 18px;
+  color: #1f1f1f;
+  margin-bottom: 40px;
+  font-weight: 400;
+  padding-bottom: 9px;
+  position: relative;
+}
+
+/* line 24, ../../../Desktop/doctor/sass/_welcome-docmnt-area.scss */
+.welcome-docmnt-area .content h5::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  background: #4BA8FD;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 33, ../../../Desktop/doctor/sass/_welcome-docmnt-area.scss */
+.welcome-docmnt-area .content h2 {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+/* line 38, ../../../Desktop/doctor/sass/_welcome-docmnt-area.scss */
+.welcome-docmnt-area .content p {
+  font-size: 16px;
+  color: #727272;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+/* line 45, ../../../Desktop/doctor/sass/_welcome-docmnt-area.scss */
+.welcome-docmnt-area .content ul li {
+  font-size: 16px;
+  line-height: 28px;
+  color: #727272;
+  font-weight: 400;
+}
+
+/* line 50, ../../../Desktop/doctor/sass/_welcome-docmnt-area.scss */
+.welcome-docmnt-area .content ul li i {
+  border: 2px solid #4BA8FD;
+  border-radius: 50%;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  color: #4BA8FD;
+  margin: 7px;
+}
+
+/* line 1, ../../../Desktop/doctor/sass/_our_dept-area.scss */
+.our_dept-area {
+  padding: 120px 0 100px 0;
+  background: #F5FBFF;
+}
+
+/* line 4, ../../../Desktop/doctor/sass/_our_dept-area.scss */
+.our_dept-area .header-text {
+  text-align: center;
+}
+
+/* line 6, ../../../Desktop/doctor/sass/_our_dept-area.scss */
+.our_dept-area .header-text h2 {
+  font-size: 36px;
+  position: relative;
+  padding: 5px;
+}
+
+/* line 11, ../../../Desktop/doctor/sass/_our_dept-area.scss */
+.our_dept-area .header-text h2::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 2px;
+  background: #4BA8FD;
+  bottom: 0;
+  left: 50%;
+}
+
+/* line 22, ../../../Desktop/doctor/sass/_our_dept-area.scss */
+.our_dept-area .single-inner {
+  background: #fff;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+/* line 26, ../../../Desktop/doctor/sass/_our_dept-area.scss */
+.our_dept-area .single-inner .text {
+  padding: 20px;
+}
+
+/* line 28, ../../../Desktop/doctor/sass/_our_dept-area.scss */
+.our_dept-area .single-inner .text h3 {
+  margin-top: 20px;
+  transition: .4s;
+}
+
+/* line 31, ../../../Desktop/doctor/sass/_our_dept-area.scss */
+.our_dept-area .single-inner .text h3:hover {
+  color: #4BA8FD;
+  transition: .4s;
+}
+
+/* line 36, ../../../Desktop/doctor/sass/_our_dept-area.scss */
+.our_dept-area .single-inner .text a {
+  color: #4BA8FD;
+}
+
+/* line 38, ../../../Desktop/doctor/sass/_our_dept-area.scss */
+.our_dept-area .single-inner .text a:hover {
+  text-decoration-line: underline;
+}
+
+/* line 43, ../../../Desktop/doctor/sass/_our_dept-area.scss */
+.our_dept-area .single-inner .img {
+  overflow: hidden;
+}
+
+/* line 45, ../../../Desktop/doctor/sass/_our_dept-area.scss */
+.our_dept-area .single-inner .img img {
+  width: 100%;
+  transform: scale(1);
+  transition: .3s;
+}
+
+/* line 49, ../../../Desktop/doctor/sass/_our_dept-area.scss */
+.our_dept-area .single-inner .img img:hover {
+  transform: scale(1.2);
+}
+
+/* line 2, ../../../Desktop/doctor/sass/_testimonial-area.scss */
+.testimonial-area .single-slide {
+  padding: 130px 0;
+  background-image: url(../img/slider1.png);
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+/* line 8, ../../../Desktop/doctor/sass/_testimonial-area.scss */
+.testimonial-area .single-slide .content p {
+  color: #fff;
+}
+
+/* line 11, ../../../Desktop/doctor/sass/_testimonial-area.scss */
+.testimonial-area .single-slide .content i {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+/* line 15, ../../../Desktop/doctor/sass/_testimonial-area.scss */
+.testimonial-area .single-slide .content h4 {
+  font-size: 16px;
+  position: relative;
+  padding: 10px;
+}
+
+/* line 19, ../../../Desktop/doctor/sass/_testimonial-area.scss */
+.testimonial-area .single-slide .content h4::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  background: #4BA8FD;
+  top: 0;
+  left: 48%;
+}
+
+/* line 31, ../../../Desktop/doctor/sass/_testimonial-area.scss */
+.testimonial-area .owl-nav button.owl-prev {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+
+/* line 36, ../../../Desktop/doctor/sass/_testimonial-area.scss */
+.testimonial-area .owl-nav button.owl-next {
+  position: absolute;
+  top: 50%;
+  right: 20%;
+}
+
+/* line 2, ../../../Desktop/doctor/sass/_bisnes-expt-aera.scss */
+.bisnes-expt-aera .heding, .bisnes-expt-aera .bisnes-expt-top .single-item h4 {
+  font-size: 24px;
+  font-weight: 300;
+  padding: 20px;
+  color: #727272;
+}
+
+/* line 8, ../../../Desktop/doctor/sass/_bisnes-expt-aera.scss */
+.bisnes-expt-aera .bisnes-expt-top {
+  background: #F5FBFF;
+}
+
+/* line 11, ../../../Desktop/doctor/sass/_bisnes-expt-aera.scss */
+.bisnes-expt-aera .bisnes-expt-top .single-item:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* line 20, ../../../Desktop/doctor/sass/_bisnes-expt-aera.scss */
+.bisnes-expt-aera .bisnes-info {
+  position: relative;
+  padding: 50px 0;
+}
+
+/* line 24, ../../../Desktop/doctor/sass/_bisnes-expt-aera.scss */
+.bisnes-expt-aera .bisnes-info .content i {
+  font-size: 36px;
+  line-height: 80px;
+  height: 80px;
+  width: 80px;
+  color: #fff;
+  background: #4BA8FD;
+  border-radius: 50px;
+}
+
+/* line 34, ../../../Desktop/doctor/sass/_bisnes-expt-aera.scss */
+.bisnes-expt-aera .bisnes-info::before {
+  content: "";
+  position: absolute;
+  width: 70%;
+  height: 1px;
+  background: #727272;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+}
+
+/* line 1, ../../../Desktop/doctor/sass/_expertdoctorarea.scss */
+.expertdoctorarea {
+  padding: 100px 0;
+}
+
+/* line 4, ../../../Desktop/doctor/sass/_expertdoctorarea.scss */
+.expertdoctorarea .header h2 {
+  padding: 10px 0;
+}
+
+/*# sourceMappingURL=style.css.map */

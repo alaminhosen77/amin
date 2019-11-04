@@ -1,0 +1,63 @@
+.button{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    background: $btn-color;
+    font-size: 14px;
+    transition: .4s;
+    display: inline-block;
+    padding: 15px 55px;;
+    a{
+        color: #fff;
+        transition: .4s;
+    }
+ }
+.button:hover{
+    border: 1px solid $btn-color;
+    background: none;
+    transition: .4s;
+    a{
+        color: $btn-color;
+        transition: .4s;
+    }
+ }
+ .searvice-button{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    transition: .4s;
+    display: inline-block;
+    padding: 10px 50px;
+    a{
+        color: #fff;
+        transition: .4s;
+    }
+ }
+ .searvice-button:hover{
+    border: 1px solid $btn-color;
+    background: $color-fff;
+    transition: .4s;
+    a{
+        color: $btn-color;
+        transition: .4s;
+    }
+}
+.wel-doc-btn{
+    @extend .searvice-button;
+    margin-top: 50px;
+    border: 1px solid $btn-color;
+    a{
+        color: $btn-color;
+    }  
+}
+.wel-doc-btn:hover{
+    background: $btn-color;
+    transition: .4s;
+    a{
+        color: $color-fff;
+        transition: .4s;
+    }
+}

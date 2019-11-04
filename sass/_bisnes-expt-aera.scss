@@ -1,0 +1,47 @@
+.bisnes-expt-aera{
+    .heding{
+        font-size: 24px;
+        font-weight: 300;
+        padding: 20px;
+        color: $p-color;
+    }
+    .bisnes-expt-top{
+        background: $hedtop_color;
+        .single-item{
+            &:hover{
+                background: $color-fff;
+                color: #000;
+            }
+            h4{
+                @extend .heding;
+            }
+        }
+    }
+    .bisnes-info{
+        position: relative;
+        padding: 50px 0;
+        .content{
+            i{
+                font-size: 36px;
+                line-height: 80px;
+                height: 80px;
+                width: 80px;
+                color: #fff;
+                background: $secend-color;
+                border-radius: 50px;
+            }
+        }
+        &::before{
+            content: "";
+            position: absolute;
+            width: 70%;
+            height: 1px;
+            background:$p-color;
+            left: 0;
+            right: 0;
+            margin: auto;
+            bottom: 0;
+        }
+    }
+
+}

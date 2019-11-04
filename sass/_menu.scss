@@ -1,0 +1,29 @@
+.mainmenu ul {
+    li{
+        position: relative;
+        padding: 10px;
+        float: left;
+        a{
+            color: #727272;
+            font-size: 15px;
+            font-weight: 500;
+        }
+        ul{
+            position: absolute;
+            left: -9989999px;
+            transition: .2s;
+            li{
+                float: left;
+                padding: 10px;
+                z-index: 1;
+                background:#fff;
+                width: 170px;
+            }
+        }
+   
+        &:hover ul{
+            left:0;
+            transition: .2s;
+        }
+    }
+}

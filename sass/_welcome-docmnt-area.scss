@@ -1,0 +1,64 @@
+.welcome-docmnt-area{
+    padding: 100px 0 200px 0;
+    .welc-single-inner{
+        position: relative;
+         .fist-img{
+             width: 60%;
+        }
+         .secend-img{
+            position: absolute;
+            right: 0;
+            top: 100px;
+            width: 85%;
+        }
+    }
+    .content{
+        h5{
+            font-size: 18px;
+            color: #1f1f1f;
+            margin-bottom: 40px;
+            font-weight: 400;
+            padding-bottom: 9px;
+            position: relative;
+        }
+        h5::before{
+            content: "";
+            position: absolute;
+            width: 40px;
+            height: 2px;
+            background: $secend-color;
+            bottom: 0;
+            left: 0;
+        }
+        h2{
+            font-size: 36px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+        p{
+            font-size: 16px;
+            color: $p-color;
+            font-weight: 300;
+            margin-bottom: 10px;
+        }
+        ul{
+            li{
+                font-size: 16px;
+                line-height: 28px;
+                color: $p-color;
+                font-weight: 400;
+                i{
+                    border: 2px solid $secend-color;
+                    border-radius: 50%;
+                    font-size: 15px;
+                    line-height: 15px;
+                    text-align: center;
+                    width: 20px;
+                    height: 20px;
+                    color: $secend-color;
+                    margin: 7px;
+                }
+            }
+        }
+    }
+}

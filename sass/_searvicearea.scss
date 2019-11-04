@@ -1,0 +1,30 @@
+.searvicearea{
+    background: $searvicearea_color;
+    
+    .single-inner{
+        padding: 40px 30px;
+        &:hover{
+            background: $secend-color;
+        }
+        .icon{
+            margin-bottom: 10px;
+            i{
+                font-size: 50px;
+                color: $color-fff;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .content{
+        color: $color-fff;
+        h3{
+            font-size: 26px;
+            font-weight: 500;
+        }
+        p{
+            font-size: 16px;
+            line-height: 28px;
+            font-weight: 300;
+        }
+    }
+}

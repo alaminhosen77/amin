@@ -1,0 +1,30 @@
+// slider 
+.singel-slider{
+    background-image: url(../img/banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .slider-text{
+        padding: 130px;
+        h2{
+            font-size: 60px;
+            font-weight: 300;
+            span{
+                font-weight: 700;
+            }
+        }
+        p{
+            color: $icon-color;
+        }
+    }
+}
+.singel-slider{
+    position: relative;
+    .slider-img img{
+        position: absolute;
+        right: 0;
+        height: 502px;
+        bottom: 0;
+        top: 0;
+            }
+        }
+// slider 

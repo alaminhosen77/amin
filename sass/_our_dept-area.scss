@@ -1,0 +1,56 @@
+.our_dept-area{
+    padding: 120px 0 100px 0;
+    background: $our-dpt-color;
+    .header-text{
+        text-align: center;
+        h2{
+            font-size: 36px;
+            position: relative;
+            padding: 5px;
+        
+            &::before{
+                content: "";
+                position: absolute;
+                width: 60px;
+                height: 2px;
+                background: $secend-color;
+                bottom: 0;
+                left: 50%;
+            }
+        }
+    }
+    .single-inner{
+        background: $color-fff;
+        overflow: hidden;
+        margin: 10px 0;
+        .text{
+            padding: 20px;
+            h3{
+                margin-top: 20px;
+                transition: .4s;
+                &:hover{
+                    color: $secend-color;
+                    transition: .4s;
+                }
+            }
+            a{
+                color: $secend-color;
+                &:hover{
+                    text-decoration-line: underline;
+                }
+            }
+        }
+        .img{
+            overflow: hidden;
+            img{
+                width: 100%;
+                transform: scale(1);
+                transition: .3s;
+                &:hover{
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+    
+}
